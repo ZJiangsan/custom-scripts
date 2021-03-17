@@ -150,3 +150,5 @@ if(debug)
 	if(maxC > 1.) col = [1.,0.,0.,];
 }
 col = col.map(sRGBCurve);
+
+return col;
